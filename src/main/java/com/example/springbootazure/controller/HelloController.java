@@ -11,4 +11,10 @@ public class HelloController {
     public Map<String, String> hello() {
         return Map.of("hello", "world");
     }
+
+        @GetMapping("/hello2")
+    public Map<String, String> hello2() {
+        return Map.of("hello", "world!!");
+    }
+
 }
